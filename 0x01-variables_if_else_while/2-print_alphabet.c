@@ -1,36 +1,21 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
 #include <stdio.h>
+#include <ctype.h>
 
 /**
- * main - assign a random number to the variable n each time it is executed
- * The string Last digit of n
+ * main - program that prints the alphabet in lowercase, followed by a new line
+ * You can only use the putchar
  * Return: 0
  */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
-int n;
-int lastn;
-
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-/* your code goes there */
-lastn = n % 10;
-if (lastn > 5)
+int l = 'a';
+while (l <= 'z')
 {
-printf("Last digit of %d is %d and is greater than 5\n", n, lastn);
+putchar(l);
+l += 1;
 }
-else if (lastn == 0)
-{
-printf("Last digit of %d is %d and is 0\n", n, lastn);
-}
-else if (lastn < 6 && lastn != 0)
-{
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastn);
-}
+putchar('\n');
 return (0);
 }
 
