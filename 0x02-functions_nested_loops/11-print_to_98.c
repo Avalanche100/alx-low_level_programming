@@ -23,12 +23,12 @@ void print_to_98(int k)
 	{
 		for (; k > 98; k--)
 		{
-			printf("%d, ", n);
+			printf("%d, ", k);
 		}
 	}
-	if (n == 98)
+	if (k == 98)
 	{
-		printf("%d\n", n);
+		printf("%d\n", k);
 	}
 }
 
