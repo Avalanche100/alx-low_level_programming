@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - program that print the last digit of a number
- * @c: the character used to print the l.d.
+ * @k: the character used to print the l.d.
  * Return: int.
  */
 
@@ -13,7 +13,7 @@ int print_last_digit(int k)
 
 	if (k < 0)
 		k *= -1;
-		
+
 	_putchar(k + '0');
 	return (k);
 }
