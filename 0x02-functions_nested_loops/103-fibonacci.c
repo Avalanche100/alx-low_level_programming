@@ -20,7 +20,7 @@ int main(void)
 		l += k;
 		k = z;
 	}
-	printf("%d\n, total);
+	printf("%d\n", total);
 	return (0);
 }
 
