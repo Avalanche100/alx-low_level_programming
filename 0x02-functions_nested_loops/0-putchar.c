@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * main - a program that prints "_putchar" followed by a new line.
  * Description - You are not allowed to use standard libraries.
  * Return: 0
