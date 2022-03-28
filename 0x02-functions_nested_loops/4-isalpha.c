@@ -2,8 +2,8 @@
 
 /**
  * -isalpha - program that checks for alphabetic character
- *  @c: the character input to check
- *  Return: int.
+ * @c: the character input to check
+ * Return: int.
  */
 
 int _isalpha(int c)
