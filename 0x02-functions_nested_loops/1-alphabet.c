@@ -2,20 +2,19 @@
 
 /**
  * main - prints the alphabets in lowercase followed by a new line.
- * Description: You are not allowed to use standard libraries.
  * Only use _putchar twice.
  * Return: Nothing.
  */
 
 void print_alphabet(void)
 {
-	int alw = 'a';
+	int plw = 'a';
 
-	while (alw <= 'z')
+	while (plw <= 'z')
 	{
-		_putchar(alw);
-		alw += 1;
+		_putchar(plw);
+		plw += 1;
 	}
-	_putchar(10);
+	_putchar('\n');
 }
 
