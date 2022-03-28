@@ -19,12 +19,12 @@ void jack_bauer(void)
 			_putchar((k / 10) + '0');
 			_putchar((k % 10) + '0');
 			_putchar(':');
-			_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
+			_putchar((l / 10) + '0');
+			_putchar((l % 10) + '0');
 			_putchar('\n');
-			j += 1;
+			l += 1;
 		}
-		x += 1;
+		k += 1;
 	}
 }
 
