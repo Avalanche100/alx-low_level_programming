@@ -6,15 +6,15 @@
  * Return: int.
  */
 
-int print_last_digit(int c)
+int print_last_digit(int k)
 {
-	c %= 10;
 
-	if (c < 0)
-		c *= -1;
+	k %= 10;
+
+	if (k < 0)
+		k *= -1;
 		
-		_putchar(c + '0');
-		return (c);
-	
+	_putchar(k + '0');
+	return (k);
 }
-i
+
