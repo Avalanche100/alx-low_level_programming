@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - prints the alphabets in lowercase followed by a new line.
- * Only use _putchar twice.
+ * print_alphabet - prints the alphabets in lowercase followed by a new line.
+ * You can only use _putchar two times.	
  * Return: Nothing.
  */
 
